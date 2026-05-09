@@ -298,7 +298,7 @@ btn_ScriptInfo=,1,8,601,5,25,25,ShowScriptInfo,Help_16.png,True,"__Script Info"
 bvl_RunFromRam=bvl_RunFromRam,1,12,5,50,133,25
 cb_RunFromRam="Run From RAM",1,3,12,54,100,18,True,"__When this option is enabled the program files will be stored in Boot.wim and loaded into memory on boot.#$x#$xYou should only select this option if you are booting from Read-Only media and your program requires write-access to the file system."
 bvl_Shortcuts=Shortcuts,1,12,5,90,133,184,8,Bold
-cb_DesktopShc=Desktop,1,3,12,104,122,18,False
+cb_DesktopShc=Desktop,1,3,12,104,122,18,True
 cb_StartMenuShc="Start Menu",1,3,12,123,122,18,True
 cb_PinToTaskbar="Pin to Taskbar",1,3,12,142,122,18,False
 cb_PinToStartMenu="Pin to Start Menu",1,3,12,161,122,18,False
@@ -313,9 +313,9 @@ cmb_SpeechVoice="English (America)",1,4,160,194,172,21,Afrikaans,Albanian,Amhari
 lbl_SpeechVariant=Variant,1,1,159,224,140,16,8,Normal
 cmb_SpeechVariant=Max,1,4,160,237,172,21,None,Adam,Alex,Alicia,Andrea,Andy,anika,anikaRobot,Annie,Antonio,anxiousAndy,Auntie,Belinda,Benjamin,Boris,Caleb,croak,David,Demonic,Denis,Diogo,Ed,Edward,Edward2,fast_test,female1,female2,female3,female4,female5,female_whisper,Gene,Gene2,grandma,grandpa,Gustave,Half-LifeAnnouncementSystem,Henrique,Hugo,Ian,Iven,Iven2,Iven3,Iven4,Jacky,John,Kaukovalta,klatt,klatt2,klatt3,klatt4,klatt5,klatt6,Lee,Linda,male1,male2,male3,male4,male5,male6,male7,male8,Marcelo,Marco,Mario,Max,Michael,Michel,Miguel,Mike,Mike2,Mr_Serious,Nguyen,norbert,Pablo,Paul,Pedro,Quincy,Reed,RicishayMax,RicishayMax2,RicishayMax3,Rob,Robert,Robosoft,Robosoft2,Robosoft3,Robosoft4,Robosoft5,Robosoft6,Robosoft7,Robosoft8,sandro,shelby,Steph,Steph2,Steph3,Storm,travis,Tweaky,UniversalRobot,victor,whisper,Zac
 lbl_Config="Additional Configuration",1,1,354,135,140,16,8,Normal
-cmb_Config="Use default settings",1,4,355,151,207,21,"Use default settings","Use settings from Host","Use settings from this folder",_ToggleIncludeDir_,True,"__Use default settings - NVDA will use default settings in addition to the settings configured here.#$xUse settings from Host - Copy userData from the Host computer (#$pAPPDATA#$p). Script settings will be ignored.#$xUse settings from this folder - Copies files/folders from the specified folder. Script settings will be ignored."
-fb_IncludeSettingsDir=,0,13,355,180,207,20,dir,"Title=Select a folder containing NVDA settings (userConfig).","__Files and folders in this directory will be copied to NVDA's userConfig folder."
-btn_BrowseIncludeDir=,0,8,567,180,20,20,BrowseIncludeDir,OpenFolder_16.png,True,__Browse
+cmb_Config="Use settings from this folder",1,4,355,151,207,21,"Use default settings","Use settings from Host","Use settings from this folder",_ToggleIncludeDir_,True,"__Use default settings - NVDA will use default settings in addition to the settings configured here.#$xUse settings from Host - Copy userData from the Host computer (#$pAPPDATA#$p). Script settings will be ignored.#$xUse settings from this folder - Copies files/folders from the specified folder. Script settings will be ignored."
+fb_IncludeSettingsDir=D:\NVDA\userConfig\,1,13,355,180,207,20,dir,"Title=Select a folder containing NVDA settings (userConfig).","__Files and folders in this directory will be copied to NVDA's userConfig folder."
+btn_BrowseIncludeDir=,1,8,567,180,20,20,BrowseIncludeDir,OpenFolder_16.png,True,__Browse
 
 [InterfaceEncoded]
 Trash.ico=1150,1212
