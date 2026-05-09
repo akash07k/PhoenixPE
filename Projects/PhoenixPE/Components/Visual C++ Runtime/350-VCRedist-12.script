@@ -34,7 +34,7 @@ Author=Homes32
 Description=(v12.0.40664.0) Allows you to run programs created with Microsoft Visual C++ 2013.
 Version=2.0.0.0
 Level=4
-Selected=False
+Selected=True
 Mandatory=False
 Date=2025-12-01
 

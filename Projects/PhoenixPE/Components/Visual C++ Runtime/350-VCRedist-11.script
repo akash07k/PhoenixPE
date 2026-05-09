@@ -34,7 +34,7 @@ Author=Homes32
 Description=(v11.0.61030.0 Update 4) Allows you to run programs created with Microsoft Visual C++ 2012.
 Version=2.0.1.0
 Level=4
-Selected=False
+Selected=True
 Mandatory=False
 Date=2025-12-15
 
