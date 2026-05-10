@@ -35,7 +35,7 @@ Level=5
 Version=1.1.0.0
 Description=(v6.3.9600.17667) Classic Windows Calculator.
 Date=2024-10-28
-Selected=False
+Selected=True
 Mandatory=False
 
 [Variables]
@@ -265,7 +265,7 @@ txt_ShortcutName="Shortcut Name:",1,0,12,243,119,21,Calculator
 bvl_Options=Options,1,12,150,90,197,184,8,Bold
 lbl_Layout=Layout,1,1,159,110,153,16,8,Normal
 cmb_Layout="1 - Standard",1,4,160,126,165,21,"0 - Scientific","1 - Standard","2 - Programmer","3 - Statistics"
-cb_ShowHistory="Show History",1,3,160,155,176,18,False
+cb_ShowHistory="Show History",1,3,160,155,176,18,True
 cb_GroupDigits="Group Digits",1,3,160,175,173,18,False,"__Group digits using the localized thousands seperator."
 
 [AuthorEncoded]
