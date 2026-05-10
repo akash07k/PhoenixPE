@@ -35,7 +35,7 @@ Level=5
 Version=1.1.2.0
 Description=(v2.3.0.6404) A small and modern utility that allows you to reset passwords, modify account properties, and create/delete existing user accounts on an offline system.
 Date=2023-11-04
-Selected=False
+Selected=True
 Mandatory=False
 
 [Variables]
