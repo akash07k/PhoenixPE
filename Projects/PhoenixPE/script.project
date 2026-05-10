@@ -61,7 +61,7 @@ Mandatory=False
 %ProgramsCache%=%Workbench%\%ProjectTitle%\Programs
 %ProjectTemp%=%Workbench%\%ProjectTitle%\Temp
 %Tools%=%BaseDir%\Projects\%ProjectTitle%\Tools
-%Shell%=
+%Shell%=Explorer
 
 ///////////////////////////////////////////////////////////////////////////////////
 // Target (Build) Globals - Do Not Modify! - TargetPrograms & PEPrograms set by 'Config Source' script.
@@ -69,16 +69,16 @@ Mandatory=False
 %TargetWindows%=%TargetDir%\WINDOWS
 %TargetSystem32%=%TargetDir%\WINDOWS\System32
 %TargetBootWim%=%OutputDir%\Sources\Boot.wim
-%TargetPrograms%=
-%PEPrograms%=
+%TargetPrograms%=D:\PhoenixPE\Workbench\PhoenixPE\Target\Program Files
+%PEPrograms%=X:\Program Files
 %TargetAppData%=%TargetDir%\Users\Default\AppData\Roaming
 %TargetLocalAppData%=%TargetDir%\Users\Default\AppData\Local
 
 ///////////////////////////////////////////////////////////////////////////////////
 // Output Globals - Do Not Modify! - Set by 'Config Source' and 'Create ISO' scripts.
-%OutputDir%=
-%ISODir%=
-%ISOFile%=
+%OutputDir%=D:\PhoenixPE\Output\PhoenixPE
+%ISODir%=D:\PhoenixPE\Output
+%ISOFile%=D:\PhoenixPE\Output\PhoenixPE_en-US_x64.iso
 
 ///////////////////////////////////////////////////////////////////////////////////
 // Registry Globals - Do Not Modify!
@@ -100,16 +100,16 @@ Mandatory=False
 
 ///////////////////////////////////////////////////////////////////////////////////
 // Source Globals - Do Not Modify! - Set by 'Config Source' script
-%SourceDir%=
-%SourceBaseWimName%=
-%SourceBaseWim%=
-%SourceInstallWim%=
-%SourceBaseWimImage%=
-%SourceInstallWimImage%=
-%SourceArch%=
-%SourceLang%=
-%SourceFallbackLang%=
-%SourceVer%=
+%SourceDir%=D:\OSImages\en-us_windows_11_consumer_editions_version_25h2_updated_april_2026_x64_dvd_38233bf1
+%SourceBaseWimName%=Boot.wim
+%SourceBaseWim%=D:\OSImages\en-us_windows_11_consumer_editions_version_25h2_updated_april_2026_x64_dvd_38233bf1\Sources\Boot.wim
+%SourceInstallWim%=D:\OSImages\en-us_windows_11_consumer_editions_version_25h2_updated_april_2026_x64_dvd_38233bf1\Sources\Install.wim
+%SourceBaseWimImage%=2
+%SourceInstallWimImage%=6
+%SourceArch%=x64
+%SourceLang%=en-US
+%SourceFallbackLang%=en-US
+%SourceVer%=10.0.26200.8246
 
 [#Process#]
 // ===============================================================================================================================
