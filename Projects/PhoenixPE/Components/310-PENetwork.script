@@ -565,19 +565,19 @@ Message,"Utilize Holger's PE Network Manager to configure network profiles and m
 // ===============================================================================================================================
 [Interface]
 btn_PENMEditor=" PENetwork Config Editor",1,8,5,5,160,25,PENetwork-ConfigEditor,"Icon Entry_239.ico",True,"__Configure PENetwork's settings."
-btn_PENMExportWifi=" Export Wireless Config",0,8,172,5,160,25,PENetwork-ExportWifi,PENetwork.png,True,"__Use PENetwork's WiFi Export tool to save a WiFi profile from your PC as an .xml file that can be included in your build."
+btn_PENMExportWifi=" Export Wireless Config",1,8,172,5,160,25,PENetwork-ExportWifi,PENetwork.png,True,"__Use PENetwork's WiFi Export tool to save a WiFi profile from your PC as an .xml file that can be included in your build."
 btn_DownloadPENetwork=,1,8,436,5,25,25,DownloadPENetwork,VistalcoDownload_16.png,False,"__Download PENetwork."
 btn_PurgeCache=,1,8,467,5,25,25,ClearDownloadCache,Trash.ico,True,"__Remove all downloaded setup files."
 btn_BrowseCache=,1,8,498,5,25,25,BrowseCache,OpenFolder.ico,True,"__Browse the PENetwork Cache.#$xUseful if you need to make manual changes to your config."
 btn_SetDefaultOptions=,1,8,543,5,25,25,SetDefaultOptions,SetDefaults_16.png,True,"__Restore Defaults"
-btn_AdvancedOptions=,1,8,574,5,25,25,ToggleAdvancedOptions,Advanced_16.png,True,"__Show Advanced Options"
+btn_AdvancedOptions=,1,8,574,5,25,25,ToggleAdvancedOptions,Advanced_Exit_16.png,True,"__Hide Advanced Options"
 btn_ScriptInfo=,1,8,605,5,25,25,ShowScriptInfo,Help_16.png,True,"__Script Info"
 cb_DownloadLatestPENetwork="Always download PENetwork",1,3,150,50,200,18,False,"__Always download the latest version of PENetwork."
-bvl_AdvancedOptions="Advanced Options",0,12,150,111,423,123,8,Bold
-cb_CustomPENetworkConfig="Use Custom PENetwork Config",0,3,160,181,235,18,False,"__Select a custom PENetwork config file to use in place of the default config."
-fb_CustomPENetworkConfig=,0,13,160,203,404,20,file,"Title=Select your custom PENetwork configuration file","Filter=PENetwork Config|*.ini"
-cb_AutoConnectWifi="Auto Connect to this Wifi Profile on Startup",0,3,160,126,235,18,False,"__Auto connect to a pre-configured SSID.#$x#$xUse the 'Export Wireless Config' button above to export#$xa wireless profile from your host OS for use with this option.#$x#$xAlternatly, leave this option unchecked and configure wireless profiles and automatic startup#$xdirectly from the 'PENetwork Config Editor'."
-fb_WifiConfig=,0,13,160,148,404,20,file,"Title=Select your Wifi Profile","Filter=Wifi Profile|*.xml"
+bvl_AdvancedOptions="Advanced Options",1,12,150,111,423,123,8,Bold
+cb_CustomPENetworkConfig="Use Custom PENetwork Config",1,3,160,181,235,18,False,"__Select a custom PENetwork config file to use in place of the default config."
+fb_CustomPENetworkConfig=D:\PhoenixPE\Workbench\PhoenixPE\Programs\PENetwork\PENetwork.ini,1,13,160,203,404,20,file,"Title=Select your custom PENetwork configuration file","Filter=PENetwork Config|*.ini"
+cb_AutoConnectWifi="Auto Connect to this Wifi Profile on Startup",1,3,160,126,235,18,True,"__Auto connect to a pre-configured SSID.#$x#$xUse the 'Export Wireless Config' button above to export#$xa wireless profile from your host OS for use with this option.#$x#$xAlternatly, leave this option unchecked and configure wireless profiles and automatic startup#$xdirectly from the 'PENetwork Config Editor'."
+fb_WifiConfig=D:\PENetwork\WifiProfiles\TechRomantica.xml,1,13,160,148,404,20,file,"Title=Select your Wifi Profile","Filter=Wifi Profile|*.xml"
 bvl_Shortcuts=PENetwork,1,12,5,50,133,184,8,Bold
 cb_DesktopShc=Desktop,1,3,12,64,122,18,True
 cb_StartMenuShc="Start Menu",1,3,12,83,122,18,True
